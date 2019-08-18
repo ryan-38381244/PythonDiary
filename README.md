@@ -29,7 +29,7 @@ Github | 存放原始碼
 def category(c):
   fs = glob.glob("articles/" + c + "/*.txt")
   fill = []
-  # ADD
+  
   for i, f in enumerate(fs):
     a = open(f)
     article = a.read()
