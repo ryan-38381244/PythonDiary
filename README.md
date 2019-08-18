@@ -24,7 +24,7 @@ Github | 存放原始碼
 
 ## 原始碼片段
 
-‵‵‵python
+```python
 @app.route("/category/<c>")
 def category(c):
   fs = glob.glob("articles/" + c + "/*.txt")
@@ -39,3 +39,4 @@ def category(c):
     t = (i, fp, str(utc), article)
     fill.append(t)
   return render_template("category.html", cat=fill, title=c)
+```
