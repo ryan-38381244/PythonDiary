@@ -1,0 +1,5 @@
+中文名	正弦	 餘弦	   正切	     餘切	    正割	  餘割
+
+英文名	sine	cosine	tangent	cotangent	secant	cosecant
+
+縮寫	  sin	  cos	    tan	    cot	      sec	    csc
